@@ -1,0 +1,69 @@
+{
+	"name": "Matheus de Gondra",
+	"job": "Aux Tec Manutenção",
+	"github": "matheusgondra",
+	"favorites": [
+		{
+			"url": "https://aluratube-1.vercel.app/",
+			"github": "matheuspergoli"
+		},
+		{
+			"url": "https://thealuratube.vercel.app/",
+			"github": "florencioMath"
+		},
+		{
+			"url": "https://aluratube-h07hefta5-yurialcant.vercel.app/",
+			"github": "yurialcant"
+		},
+		{
+			"url": "https://aluratube-next-js.vercel.app/",
+			"github": "sucodelarangela"
+		}
+	],
+	"playlists": {
+		"games": [
+			{
+				"title": "ESTÁ TUDO DE ERRADO COM: Resident Evil Remake - 1/2 (Jill)",
+				"url": "https://youtu.be/u9vIiTeaLms?list=PLWTrrEjlhnqUOU_fqWYQmYxO_Dq7R-1u7",
+				"thumb": "https://i.ytimg.com/vi/u9vIiTeaLms/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC8pZLefTp5rCGK9J1vKkPeOr8sCA"
+			},
+			{
+				"title": "ESTÁ TUDO ERRADO COM: RESIDENT EVIL 1 - 1/2 (Jill)",
+				"url": "https://youtu.be/iWD3n6w5TMY?list=PLWTrrEjlhnqUOU_fqWYQmYxO_Dq7R-1u7",
+				"thumb": "https://i.ytimg.com/vi/iWD3n6w5TMY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAgk9ENgSbWyOGw41EPCmsNuZ3HPw"
+			},
+			{
+				"title": "A HISTÓRIA COMPLETA DE FIVE NIGHTS AT FREDDY'S!",
+				"url": "https://youtu.be/iHGPxkQMkZs",
+				"thumb": "https://i.ytimg.com/vi/iHGPxkQMkZs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCmBC7JJBisNPKgFmXoK8KM66XBng"
+			},
+			{
+				"title": "Slime Diva, Fruto Aegis e Nova Regra pro Ankh Shield! ► TERRARIA REVERSO #32",
+				"url": "https://youtu.be/FVjZC_jqh8M",
+				"thumb": "https://i.ytimg.com/vi/FVjZC_jqh8M/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDS1H2SorYNkHTf37IImNO0FxobWA"
+			},
+			{
+				"title": "Terraria TUDO DÁ HIT KILL ► Nova série! Personagem com 1 de HP e 9999999 bônus de dano!",
+				"url": "https://youtu.be/_WslwrMiIJ0",
+				"thumb": "https://i.ytimg.com/vi/_WslwrMiIJ0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAR0FeXu2tvUaXSevUGV16nBg_xhQ"
+			},
+			{
+				"title": "Quebrando a MAIOR MONTANHA do Minecraft - Em busca da casa automática #244",
+				"url": "https://youtu.be/4iYv-mJZh1U",
+				"thumb": "https://i.ytimg.com/vi/4iYv-mJZh1U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3LT7ePkDOonPRXHNwMDrbXUcQ6w"
+			}
+		],
+		"frontend": [
+			{
+				"title": "React - Guia definitivo de performance (useMemo, useCallback, memo) - Code/drops #82",
+				"url": "https://www.youtube.com/watch?v=NmU2nNehNNY&list=PL85ITvJ7FLohz54DLfinJeHi7DrHGT2_U&index=2&t=939s",
+				"thumb": "https://i.ytimg.com/vi/NmU2nNehNNY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCVfheXeiVcGqRt28JUgJrHKLNKWQ"
+			},
+			{
+				"title": "Como inicio meus apps com ReactJS? Next.js, TypeScript, ESLint e Styled Components | Code/Drops #50",
+				"url": "https://youtu.be/1nVUfZg2dSA?list=PL85ITvJ7FLohz54DLfinJeHi7DrHGT2_U",
+				"thumb": "https://i.ytimg.com/vi/1nVUfZg2dSA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBsTff-D-E6Qc2kALR1FpBbChpwcA"
+			}
+		]
+	} 
+}
