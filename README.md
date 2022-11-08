@@ -6,7 +6,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | -------------  | --- |
 | :sparkles: Nome        | **AluraTube**
 | :label: Tecnologias | ReactJS, NextJS, Javascript, Styled-Components, CSS, HTML
-| :rocket: URL         | [AluraTube](https://url-deploy.com.br)
+| :rocket: URL         | [AluraTube](https://aluratube-tau-eight.vercel.app/)
 | 🔥 Desafio      | [Design no Figma](https://www.figma.com/file/3ryManadSVXjYYdva3orGD/Aluratube-(Copy)?node-id=5%3A2) |
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
