@@ -1,6 +1,6 @@
 import { StyledTimeline } from "./styles";
 
-export default function Timeline({ playlists, favorites }) {
+export default function Timeline({ playlists, favorites, searchValue }) {
 	const playlistNames = Object.keys(playlists);
 	const aluraTubeFavorites = favorites;
 
@@ -13,7 +13,13 @@ export default function Timeline({ playlists, favorites }) {
 					<section>
 						<h2>{playlistName}</h2>
 						<div>
-							{videos.map(video => {
+							{videos
+								.filter(video => {
+									const titleNormalize = video.title.toLowerCase();
+									const searchValueNormalize = searchValue.toLowerCase();
+									return titleNormalize.includes(searchValueNormalize);
+								})
+								.map(video => {
 								return (
 									<a href={video.url} target="blank">
 										<img src={video.thumb} alt="thumb do video" />

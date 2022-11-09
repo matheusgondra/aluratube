@@ -23,3 +23,12 @@ export const StyledMenu = styled.header`
     }
   }
 `;
+
+export const StyledBanner = styled.div`
+	background-color: blue;
+	background-image: url(${({ bg }) => bg});
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 230px;
+`;
