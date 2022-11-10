@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.div`
+	background-color: ${({ theme }) => theme.backgroundLevel1};
 	.user-info {
 		img {
 			width: 80px;

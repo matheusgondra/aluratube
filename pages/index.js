@@ -1,16 +1,14 @@
 import { useState } from "react";
 import config from "../config.json";
-import { CSSReset } from "../src/components/CssReset";
 import Header from "../src/components/Header";
 import Menu from "../src/components/Menu";
 import Timeline from "../src/components/Timeline";
 
 function HomePage() {
-	const [valorDoFiltro, setValorDoFiltro] = useState("ESTÁ");
+	const [valorDoFiltro, setValorDoFiltro] = useState("");
 
 	return (
 		<>
-			<CSSReset />
 			<div style={{
 				display: "flex",
 				flexDirection: "column",

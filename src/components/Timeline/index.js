@@ -8,9 +8,8 @@ export default function Timeline({ playlists, favorites, searchValue }) {
 		<StyledTimeline>
 			{playlistNames.map(playlistName => {
 				const videos = playlists[playlistName];
-				console.log(videos)
 				return (
-					<section>
+					<section key={playlistName}>
 						<h2>{playlistName}</h2>
 						<div>
 							{videos
@@ -21,7 +20,11 @@ export default function Timeline({ playlists, favorites, searchValue }) {
 								})
 								.map(video => {
 								return (
-									<a href={video.url} target="blank">
+									<a 
+										href={video.url} 
+										target="blank"
+										key={video.id}
+									>
 										<img src={video.thumb} alt="thumb do video" />
 										<span>{video.title}</span>
 									</a>
@@ -36,7 +39,7 @@ export default function Timeline({ playlists, favorites, searchValue }) {
 				<div>
 					{aluraTubeFavorites.map(favorite => {
 						return (
-							<figure>
+							<figure key={favorite.id}>
 								<a href={favorite.url} target="blank">
 									<img src={`https://github.com/${favorite.github}.png`} alt="foto de perfil do github" />
 								</a>
