@@ -1,23 +1,6 @@
 import { useState } from "react";
+import { useForm } from "../hooks/useForm";
 import { StyledRegisterVideo } from "./styles";
-
-function useForm({ initalValues }) {
-	const [values, setValues] = useState(initalValues);
-	return { 
-		values,
-		handleChange: (event) => {
-			const value = event.target.value;
-			const name = event.target.name;
-			setValues({
-				...values,
-				[name]: value
-			});
-		},
-		clearForm: () => {
-			setValues({});
-		}
-	};
-}
 
 export default function RegisterVideo() {
 	const formCadastro = useForm({
