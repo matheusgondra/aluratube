@@ -8,12 +8,12 @@ const PUBLIC_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSI
 const supabase = createClient(PROJECT_URL, PUBLIC_KEY);
 
 function getYoutubeThumbnail(url) {
-	return `https://img.youtube.com/vi/${url.split("v=")[1]}/hqdefault.jpg`;
+	return `https://img.youtube.com/vi/${url.split("v=")[1]}/0.jpg`;
 }
 
 export default function RegisterVideo() {
 	const formCadastro = useForm({
-		initalValues: { titulo: "Aula 4 - Imersão React", url: "https://www.youtube.com/watch?v=6hBZo9UR-k0&t=191s" }
+		initalValues: { titulo: "", url: "", categoria: "" }
 	});
 	const [formVisivel, setFormVisivel] = useState(false);
 
@@ -32,7 +32,7 @@ export default function RegisterVideo() {
 						title: formCadastro.values.titulo,
 						url: formCadastro.values.url,
 						thumb: getYoutubeThumbnail(formCadastro.values.url),
-						playlist: "jogos"
+						playlist: formCadastro.values.categoria
 					})
 					.then(res => {
 						console.log(res);
@@ -59,6 +59,12 @@ export default function RegisterVideo() {
 							placeholder="URL"
 							name="url"
 							value={formCadastro.values.url}
+							onChange={formCadastro.handleChange}
+						/>
+						<input
+							placeholder="Categoria"
+							name="categoria"
+							value={formCadastro.values.categoria}
 							onChange={formCadastro.handleChange}
 						/>
 						<button type="submit">Cadastrar</button>
