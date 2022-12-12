@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useForm } from "../hooks/useForm";
+import { useForm } from "../../hooks/useForm";
 import { StyledRegisterVideo } from "./styles";
 import { createClient } from '@supabase/supabase-js'
 
