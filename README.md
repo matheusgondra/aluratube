@@ -1,6 +1,6 @@
-# Nome do meu projeto
+# Aluratube
 
-Rápida descrição do objetivo de fazer esse projeto
+Clone do youtube feito na Imersão React.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
