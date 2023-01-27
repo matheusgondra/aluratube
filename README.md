@@ -17,7 +17,7 @@ O AluraTube é um clone da plataforma do youtube onde podemos ver os nossos víd
 
 Esse projeto foi desenvolvido junto da [Alura](https://www.alura.com.br/) durante a Imersão React. Nessa imersão temos o instrutor [Mario Souto](https://github.com/omariosouto), e também, a participação de [Nayanne Batista](https://github.com/NayanneBatista) e do [Paula Silveira](https://github.com/peas).
 
-![Imagem do projeto](./project.png)
+![Imagem do projeto](./project.png#vitrinedev)
 
 #
 
